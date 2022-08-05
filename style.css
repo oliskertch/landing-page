@@ -1,6 +1,6 @@
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.header{
+.header-section {
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -8,7 +8,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
     
 }
 
-.header, .top-section {
+.header-section, .hero-container {
     background-color: #1f2937;
     color: #f9faf8; 
 }
@@ -19,7 +19,7 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
     font-weight: 700;
 }
 
-.right-links {
+.right-header-links {
     display:flex;
     justify-items: flex-end;
     gap:16px; 
@@ -34,13 +34,13 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
-.top-section {
+.hero-container {
     display: flex;
     justify-content: space-between;
     padding: 32px;
 }
 
-.top-left {width: 400px}
+.hero-text {width: 400px}
 
 .title {
     font-size: 48px;
@@ -65,17 +65,17 @@ color: lightgrey;
     border-radius: 12px;
 }
 
-.random-information-section {
+.random-information-container {
     padding: 48px;
 }
 
-.pics {
+.pics-with-text {
     display: flex;
     justify-content: space-around;
     gap:48px;
 }
 
-.pics-with-text {
+.pics {
     text-align: center;
     width: auto;
 }
@@ -87,7 +87,7 @@ color: lightgrey;
     padding: 16px;
 }
 
-.quote-section {
+.quote-container {
     background-color: #e5e7eb;
     padding-left:150px;
     padding-right: 150px;
@@ -106,7 +106,7 @@ color: lightgrey;
     color:#1f2937;
 }
 
-.quote-sayer {
+.quote-name {
     text-align: right;
     font-size: 42px;
 }
